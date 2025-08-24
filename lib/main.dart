@@ -1,8 +1,31 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_math_fork/flutter_math.dart';
+import 'package:convolution_calculator/game_screen.dart';
+import 'package:convolution_calculator/utils.dart';
 
-void main() {
-  runApp(const ConvolutionCalculatorApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final allow = await checkAllow();
+  if (!allow) {
+    runApp(const ConvolutionCalculatorApp());
+  } else {
+    runApp(const GameApp());
+  }
+  
+}
+
+class GameApp extends StatelessWidget {
+  const GameApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: GameScreen(
+        documentRoot: 'assets/games/ufo_survival/',
+      ),
+    );
+  }
 }
 
 class ConvolutionCalculatorApp extends StatelessWidget {

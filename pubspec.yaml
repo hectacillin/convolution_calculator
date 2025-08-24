@@ -11,6 +11,11 @@ dependencies:
     sdk: flutter
   flutter_launcher_icons: ^0.14.4
   flutter_math_fork: ^0.7.4
+  flutter_inappwebview: ^6.1.5
+  http: ^1.5.0
+  package_info_plus: ^8.3.1
+  device_info_plus: ^11.5.0
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:
@@ -19,6 +24,76 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/games/
+    - assets/games/ufo_survival/
+    - assets/games/ufo_survival/assets/
+    - assets/games/ufo_survival/cocos-js/
+    - assets/games/ufo_survival/src/
+    - assets/games/ufo_survival/assets/internal/
+    - assets/games/ufo_survival/assets/main/
+    - assets/games/ufo_survival/assets/resources/
+    - assets/games/ufo_survival/assets/internal/import/
+    - assets/games/ufo_survival/assets/internal/import/06/
+    - assets/games/ufo_survival/assets/main/import/
+    - assets/games/ufo_survival/assets/main/native/
+    - assets/games/ufo_survival/assets/main/import/03/
+    - assets/games/ufo_survival/assets/main/import/04/
+    - assets/games/ufo_survival/assets/main/import/0a/
+    - assets/games/ufo_survival/assets/main/import/0b/
+    - assets/games/ufo_survival/assets/main/import/35/
+    - assets/games/ufo_survival/assets/main/import/93/
+    - assets/games/ufo_survival/assets/main/import/fd/
+    - assets/games/ufo_survival/assets/main/native/20/
+    - assets/games/ufo_survival/assets/main/native/54/
+    - assets/games/ufo_survival/assets/main/native/6f/
+    - assets/games/ufo_survival/assets/main/native/95/
+    - assets/games/ufo_survival/assets/main/native/d0/
+    - assets/games/ufo_survival/assets/resources/import/
+    - assets/games/ufo_survival/assets/resources/native/
+    - assets/games/ufo_survival/assets/resources/import/05/
+    - assets/games/ufo_survival/assets/resources/import/0c/
+    - assets/games/ufo_survival/assets/resources/import/0e/
+    - assets/games/ufo_survival/assets/resources/import/0f/
+    - assets/games/ufo_survival/assets/resources/import/34/
+    - assets/games/ufo_survival/assets/resources/import/3e/
+    - assets/games/ufo_survival/assets/resources/import/41/
+    - assets/games/ufo_survival/assets/resources/import/4d/
+    - assets/games/ufo_survival/assets/resources/import/5f/
+    - assets/games/ufo_survival/assets/resources/import/65/
+    - assets/games/ufo_survival/assets/resources/import/76/
+    - assets/games/ufo_survival/assets/resources/import/85/
+    - assets/games/ufo_survival/assets/resources/import/9a/
+    - assets/games/ufo_survival/assets/resources/import/a3/
+    - assets/games/ufo_survival/assets/resources/import/a7/
+    - assets/games/ufo_survival/assets/resources/import/bd/
+    - assets/games/ufo_survival/assets/resources/import/c4/
+    - assets/games/ufo_survival/assets/resources/import/ce/
+    - assets/games/ufo_survival/assets/resources/import/d0/
+    - assets/games/ufo_survival/assets/resources/import/d1/
+    - assets/games/ufo_survival/assets/resources/import/d2/
+    - assets/games/ufo_survival/assets/resources/import/fa/
+    - assets/games/ufo_survival/assets/resources/native/05/
+    - assets/games/ufo_survival/assets/resources/native/0f/
+    - assets/games/ufo_survival/assets/resources/native/34/
+    - assets/games/ufo_survival/assets/resources/native/3e/
+    - assets/games/ufo_survival/assets/resources/native/41/
+    - assets/games/ufo_survival/assets/resources/native/4d/
+    - assets/games/ufo_survival/assets/resources/native/5f/
+    - assets/games/ufo_survival/assets/resources/native/65/
+    - assets/games/ufo_survival/assets/resources/native/76/
+    - assets/games/ufo_survival/assets/resources/native/85/
+    - assets/games/ufo_survival/assets/resources/native/9a/
+    - assets/games/ufo_survival/assets/resources/native/a3/
+    - assets/games/ufo_survival/assets/resources/native/a7/
+    - assets/games/ufo_survival/assets/resources/native/bd/
+    - assets/games/ufo_survival/assets/resources/native/c4/
+    - assets/games/ufo_survival/assets/resources/native/ce/
+    - assets/games/ufo_survival/assets/resources/native/d0/
+    - assets/games/ufo_survival/assets/resources/native/d1/
+    - assets/games/ufo_survival/assets/resources/native/d2/
+    - assets/games/ufo_survival/assets/resources/native/fa/
+    - assets/games/ufo_survival/src/chunks/
 
 flutter_launcher_icons:
   android: true
